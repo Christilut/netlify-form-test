@@ -2,6 +2,10 @@
   <div id="app">
     <img src="./assets/logo.png">
     <hello></hello>
+    <h4>Netlify test below</h4>
+    <form name="test" data-netlify>
+      <input name="something" />
+    </form>
   </div>
 </template>
 
