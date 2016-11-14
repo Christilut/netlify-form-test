@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <hello></hello>
+    <router-view></router-view>
     <h4>Netlify test below</h4>
     <form name="test" data-netlify>
       <input name="something" />
