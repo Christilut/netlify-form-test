@@ -25,8 +25,10 @@
     li
       a(href='https://github.com/vuejs/awesome-vue', target='_blank') awesome-vue
   h4 This form is nested and created with Jade/Pug, maybe that matters
-  form(name='test2', data-netlify='')
+  form
+    input(type='hidden' name='form-name' value='contact')
     input(name='somethingelse')
+    button(type='submit')
 </template>
 
 <script>
