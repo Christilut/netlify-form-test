@@ -25,7 +25,7 @@
     li
       a(href='https://github.com/vuejs/awesome-vue', target='_blank') awesome-vue
   h4 This form is nested and created with Jade/Pug, maybe that matters
-  form(action='/')
+  form(action='/', method='POST')
     input(type='hidden' name='form-name' value='contact')
     input(name='somethingelse')
     button(type='submit') submit
